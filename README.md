@@ -10,9 +10,9 @@ notification-blocking optimization.
 - Uses a dark, high-contrast palette with a slightly warm foreground.
 - Adds modest terminal margins and keeps scrollback at 2,000 rows so the
   terminal stays responsive.
-- Uses a bar cursor with a slower blink and a compact two-row computer-style
-  key layout with a compact `⇧` Shift icon, navigation, editing, Enter, and
-  keyboard buttons.
+- Uses a bar cursor with a slower blink and an icon-first, compact two-row
+  computer-style key layout with a `⇧` Shift icon, navigation, editing, Enter,
+  and keyboard buttons.
 - Installs Android's `DroidSansMono.ttf` only when no custom Termux font exists.
 - Disables the legacy `TermuxRootMods` global shell wrapper if it is present;
   the wrapper remains installed for rollback, but no longer intercepts shells.
@@ -26,7 +26,7 @@ Font size** and use 19–20 if 18 still feels small. Run
 
 ## Install
 
-1. Build `dist/TermuxClarity-v1.0.2.zip`, or download the release asset.
+1. Build `dist/TermuxClarity-v1.0.3.zip`, or download the release asset.
 2. Flash the ZIP from Magisk → Modules → Install from storage.
 3. Reboot once.
 4. Run `termux-reload-settings` in Termux, or open a new session.
