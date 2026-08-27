@@ -1,6 +1,6 @@
 id=termux_clarity
 name=Termux Clarity Theme
-version=v1.0.0
-versionCode=100
+version=v1.0.1
+versionCode=101
 author=shamrat05
 description=Readable, low-glare Termux theme with a safe one-shot boot apply and no resident performance daemon.
