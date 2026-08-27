@@ -11,8 +11,8 @@ notification-blocking optimization.
 - Adds modest terminal margins and keeps scrollback at 2,000 rows so the
   terminal stays responsive.
 - Uses a bar cursor with a slower blink and an icon-first, compact two-row
-  computer-style key layout with a `⇧` Shift icon, navigation, editing, Enter,
-  and keyboard buttons.
+  computer-style key layout with `⇧` Shift, navigation, editing, Enter,
+  Drawer, Keyboard, utility menu, Git push, and Exit buttons.
 - Installs Android's `DroidSansMono.ttf` only when no custom Termux font exists.
 - Disables the legacy `TermuxRootMods` global shell wrapper if it is present;
   the wrapper remains installed for rollback, but no longer intercepts shells.
