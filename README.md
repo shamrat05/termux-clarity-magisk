@@ -1,13 +1,14 @@
 # Termux Clarity Magisk Module
 
 Termux Clarity is a small, reversible Magisk module for Termux readability and
-consistent shell presentation. It is intentionally not a “RAM booster”: there
-is no resident service, polling loop, CPU governor change, network tweak, or
-notification-blocking optimization.
+consistent shell presentation. Version 1.0.4 adds the Warm Graphite palette: a
+warm charcoal background, soft ivory text, and clear muted accents. It is
+intentionally not a “RAM booster”: there is no resident service, polling loop,
+CPU governor change, network tweak, or notification-blocking optimization.
 
 ## What it changes
 
-- Uses a dark, high-contrast palette with a slightly warm foreground.
+- Uses the Warm Graphite dark palette with high-contrast text and softened accents.
 - Adds modest terminal margins and keeps scrollback at 2,000 rows so the
   terminal stays responsive.
 - Uses a bar cursor with a slower blink and an icon-first, compact two-row
@@ -26,7 +27,7 @@ Font size** and use 19–20 if 18 still feels small. Run
 
 ## Install
 
-1. Build `dist/TermuxClarity-v1.0.3.zip`, or download the release asset.
+1. Build `dist/TermuxClarity-v1.0.4.zip`, or download the release asset.
 2. Flash the ZIP from Magisk → Modules → Install from storage.
 3. Reboot once.
 4. Run `termux-reload-settings` in Termux, or open a new session.
